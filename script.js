@@ -73,7 +73,7 @@ async function youtubeIframeAPI() {
 async function onYouTubeIframeAPIReady() {
   const videos = await findChannelVideos();
   console.log(videos);
-  for (i = 0; i <= 12; i++) {
+  for (i = 0; i <= 14; i++) {
     const videosContainer = document.querySelector(".videos-container");
     const videoBox = document.createElement("div");
     videoBox.classList.add("video-box");
