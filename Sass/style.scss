@@ -7,14 +7,17 @@
 .btn {
   width: 15vh;
   height: 5vh;
-  border-radius: 1em;
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid #333;
-  font-size: 1.1em;
+  border: 0px;
+  background-color: #0f0f0f;
+
+  font-size: 1em;
   font-weight: 600;
 }
 .btn:hover {
   cursor: pointer;
+  border-radius: 0.5em;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #333;
 }
 .modal {
   display: none;
@@ -46,7 +49,7 @@
 .top-side {
   display: flex;
   flex-direction: column;
-  height: 16vh;
+  height: 10vh;
   width: auto;
   background-color: #0f0f0f;
 }
@@ -61,23 +64,26 @@
   align-items: center;
   border-bottom: 1px solid black;
 }
-.input-yt-it-box {
-  display: flex;
-  flex-direction: row;
-  column-gap: 2vh;
-}
-.input-yt-id {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 1em;
-  color: white;
-  padding: 0.2em;
-  border: 1px solid black;
-}
+
 .webpage-logo-box {
   display: flex;
   align-items: center;
   font-size: large;
   font-weight: 800;
+}
+.authorization-container {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  align-items: center;
+}
+.authorization-btn {
+  background-repeat: no-repeat;
+  width: 24vh;
+  height: 8vh;
+}
+.authorization-btn:hover {
+  cursor: pointer;
 }
 .top-side-channel-list {
   display: flex;
@@ -139,6 +145,7 @@
   font-weight: 600;
   h3 {
     font-size: 1.17em;
+    height: 5vh;
   }
   p {
     img {
@@ -146,6 +153,7 @@
       height: 5vh;
       width: 5vh;
       vertical-align: middle;
+      margin-right: 1em;
     }
   }
 }
