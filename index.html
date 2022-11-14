@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="Simple website using YouTube API and oauth 2.0 to identify user 
+      by google and display videos from channels that he subscribes."
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-    <script src="https://apis.google.com/js/api.js"></script>
   </head>
   <body>
     <div class="main-box">
@@ -153,27 +156,29 @@
         <div class="last-week-videos-container specific-videos-box"></div>
         <h2 class="older-videos pusblishing-time-header">Older videos</h2>
         <div class="older-videos-container specific-videos-box"></div>
-        <script src="https://www.youtube.com/player_api"></script>
       </section>
       <section class="footer">
         <h3>Bartosz Bednarski</h3>
         <span>
-          <a href="mailto:bartosz.bednarski97@gmail.com">
-            <img src="./images/icons/icons8-gmail-logo.svg" alt="" srcset=""
+          <a href="mailto:bartosz.bednarski97@gmail.com" alt="e-mail">
+            <img src="./images/icons/icons8-gmail-logo.svg" alt="email-icon"
           /></a>
-          <a href="https://www.linkedin.com/in/bartosz-bednarski-050196234/">
+          <a
+            href="https://www.linkedin.com/in/bartosz-bednarski-050196234/"
+            alt="linkedin"
+          >
             <img
               src="./images//icons/icons8-linkedin-circled.svg"
-              alt=""
-              srcset=""
+              alt="linkedin-icon"
           /></a>
-          <a href="https://github.com/bartosz-bednarski">
-            <img src="./images/icons/icons8-github-480.svg" alt="" srcset=""
+          <a href="https://github.com/bartosz-bednarski" alt="github">
+            <img src="./images/icons/icons8-github-480.svg" alt="github-icon"
           /></a>
         </span>
       </section>
     </div>
-
+    <script src="https://www.youtube.com/player_api"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
     <script src="https://accounts.google.com/gsi/client"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="script.js"></script>

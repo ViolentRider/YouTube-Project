@@ -267,9 +267,11 @@
     min-height: 73vh;
   }
   .video-box {
-    width: 40vh;
+    width: auto;
     height: auto;
     min-height: 0;
+    justify-items: center;
+    align-items: center;
   }
   .video-img {
     width: 40vh;
@@ -277,8 +279,9 @@
     background-size: 40vh 25vh;
   }
   .specific-videos-box {
-    padding: 1vh;
+    padding: 0;
     justify-items: center;
+    flex-direction: column;
   }
   .pusblishing-time-header {
     margin-left: 3vh;
@@ -287,6 +290,10 @@
     padding: 1vh;
     -moz-column-gap: 2vh;
          column-gap: 2vh;
+  }
+  .top-side-channel-list {
+    padding: 2vh 1vh;
+    overflow-x: scroll;
   }
   .top-side-channel-list img {
     transition: transform 1s;
