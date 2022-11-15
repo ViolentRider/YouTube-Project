@@ -1,13 +1,14 @@
-const API_KEY = "AIzaSyAye0TvRQpvYYJ1C_zgnDg7umAneVEiIqk";
-const USER_ID =
-  "286529760252-s3j7glfmn64jrp2vbkurv790g013qc0q.apps.googleusercontent.com";
+import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config();
+const API_KEY = process.env.API_KEY_SECRET;
+const USER_ID = process.env.USER_ID_SECRET;
+console.log(USER_ID);
 const DISCOVERY_DOCS =
   "https:www.googleapis.com/discovery/v1/apis/youtube/v3/res";
-
+const CLIENT_SEC = process.env.CLIENT_SECRET;
 const client = google.accounts.oauth2.initTokenClient({
-  client_id:
-    "286529760252-s3j7glfmn64jrp2vbkurv790g013qc0q.apps.googleusercontent.com",
-  client_secret: "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",
+  client_id: `${USER_ID}`,
+  client_secret: `${CLIENT_SEC}`,
   scope: "https://www.googleapis.com/auth/youtube.readonly",
   callback: (tokenResponse) => {
     client.requestAccessToken();
