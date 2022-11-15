@@ -26,16 +26,23 @@
 <img src="/images/icons/readMe/GIMP/05.png" alt="Logo" width="100%" height="100%">
 
 YouTube-Project is a website build on flexbox, using YouTube Data API v3, OAuth 2.0 and JavaScript to filter the incoming data from API. 
-* Website uses OAuth 2.0 authorization to let the user log in with google account to take his youtTube channel informations.
-* When the authorization process is done, website uses obtained acess token to get the informations from server about the youTube channel ID
+* Website uses OAuth 2.0 authorization to let the user log in with google account to take his YouTube channel informations.
+* When the authorization process is done, website uses obtained acess token to get the informations from server about the youTube channel ID.
 * Next step is sending the request the list of channels which user subscribes to and display their logos icons at the navigation bar.
 * Each click of the channel icon at the navigation menu sends a request to server to get the list of the last updates videos of that channel.
 * Retrieved informations are displayed on the main screen, after filtering them with JavaScript.
-* Clicking video miniature starts loading youTube player.
+* Clicking video miniature starts loading YouTube player.
 Displayed navigation bar is a demonstration version of my youTube channel subscribtions list placed in HTML. If you want to check how the website works with authorization write me on e-mail or linkedIn. In the message you need to place your google e-mail which is connected to your YouTube channel. 
 This gives me a posibility to put you on a testing users list and allow to use the authorization on that website.
 
-                
+## Used Technologies
+
+* JavaScript
+* Sass
+* HTML
+* OAuth 2.0
+* YouTube Data API v3
+* Axios
 
 
 ## Desktop view
