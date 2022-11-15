@@ -1,7 +1,7 @@
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.JPG" alt="Logo" width="100%" height="100%">
+  <a href="https://github.com/bartosz-bednarski/YouTube-Project">
+    <img src="/images/icons/readMe/GIMP/logo.png" alt="Logo" width="100%" height="100%">
   </a>
 
 
@@ -9,7 +9,7 @@
   <br />
     <br/>
     <br/>
-    <a href="https://bartosz-bednarski.github.io/Restaurant-Project/"><strong>Explore the website</strong></a>
+    <a href="https://bartosz-bednarski.github.io/YouTube-Project/"><strong>Explore the website</strong></a>
     <br />
     
   </p>
@@ -23,26 +23,26 @@
 
 <!-- ABOUT THE PROJEC -->
 ## About The Project
-<img src="images/website_presentation_1.png" alt="Logo" width="100%" height="100%">
+<img src="/images/icons/readMe/GIMP/05.png" alt="Logo" width="100%" height="100%">
 
-Restaurant-Project is a website build on flexbox, with simple css styling and JavaScript functions. 
-* Menu items are displayed dynamically using JavaScript methods.
-* Menu buttons use the filtering options to display the correct categories of items in menu.
-* Website has posibility to create an account to get a free delivery bonus. 
-* After loggin in and confirming your order total price will be calculated without delivery price value.
-* Registration process uses Map() data structure to store user's e-mail adress and password.
-* Icons used in footer sections were downloaded from : <a href="https://www.flaticon.com/packs/social-media-163" title="google icons" class="thank-u-mr-babkin">Icon Pack: Social Media 
-                | Flat created by Ruslan Babkin - Flaticon</a>
+YouTube-Project is a website build on flexbox, using YouTube Data API v3, OAuth 2.0 and JavaScript to filter the incoming data from API. 
+* Website uses OAuth 2.0 authorization to let the user log in with google account to take his youtTube channel informations.
+* When the authorization process is done, website uses obtained acess token to get the informations from server about the youTube channel ID
+* Next step is sending the request the list of channels which user subscribes to and display their logos icons at the navigation bar.
+* Each click of the channel icon at the navigation menu sends a request to server to get the list of the last updates videos of that channel.
+* Retrieved informations are displayed on the main screen, after filtering them with JavaScript.
+* Clicking video miniature starts loading youTube player.
 
                 
 
 
 ## Desktop view
-<img src="images/website_presentation_2.png" alt="Logo" width="100%" height="auto">
-<img src="images/website_presentation_3.png" alt="Logo" width="1000" height="auto">
+<img src="/images/icons/readMe/GIMP/01.png" alt="Logo" width="100%" height="100%">
+<img src="/images/icons/readMe/GIMP/03.png" alt="Logo" width="100%" height="100%">
+<img src="/images/icons/readMe/GIMP/04.png" alt="Logo" width="100%" height="100%">
 
 ## Mobile view
-<img src="images/website_presentation_4.jpg" alt="Logo" width="30%" height="auto"> <img src="images/website_presentation_5.jpg" alt="Logo" width="30%" height="auto"> <img src="images/website_presentation_6.jpg" alt="Logo" width="30%" height="auto">      
+<img src="/images/icons/readMe/01_mobile.jpg" alt="Logo" width="33%" height="auto"> <img src="/images/icons/readMe/02_mobile.jpg" alt="Logo" width="33%" height="auto"> <img src="/images/icons/readMe/03_mobile.jpg" alt="Logo" width="33%" height="auto">      
 
 
 <!-- CONTACT -->
