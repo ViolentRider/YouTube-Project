@@ -32,6 +32,8 @@ YouTube-Project is a website build on flexbox, using YouTube Data API v3, OAuth 
 * Each click of the channel icon at the navigation menu sends a request to server to get the list of the last updates videos of that channel.
 * Retrieved informations are displayed on the main screen, after filtering them with JavaScript.
 * Clicking video miniature starts loading youTube player.
+Displayed navigation bar is a demonstration version of my youTube channel subscribtions list placed in HTML. If you want to check how the website works with authorization write me on e-mail or linkedIn. In the message you need to place your google e-mail which is connected to your YouTube channel. 
+This gives me a posibility to put you on a testing users list and allow to use the authorization on that website.
 
                 
 
@@ -50,7 +52,7 @@ YouTube-Project is a website build on flexbox, using YouTube Data API v3, OAuth 
 
 Bartosz Bednarski - bartosz.bednarski97@gmail.com
 
-Project Link: [https://bartosz-bednarski.github.io/Restaurant-Project/](https://bartosz-bednarski.github.io/Restaurant-Project/)
+Project Link: [https://github.com/bartosz-bednarski/YouTube-Project](https://github.com/bartosz-bednarski/YouTube-Project)](https://github.com/bartosz-bednarski/YouTube-Project)
 
 
 
