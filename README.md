@@ -59,7 +59,7 @@ This gives me a posibility to put you on a testing users list and allow to use t
 
 Bartosz Bednarski - bartosz.bednarski97@gmail.com
 
-Project Link: [https://github.com/bartosz-bednarski/YouTube-Project](https://github.com/bartosz-bednarski/YouTube-Project)](https://github.com/bartosz-bednarski/YouTube-Project)
+Project Link: [https://github.com/bartosz-bednarski/YouTube-Project](https://github.com/bartosz-bednarski/YouTube-Project)
 
 
 
