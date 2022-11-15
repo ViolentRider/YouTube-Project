@@ -51,7 +51,7 @@ This gives me a posibility to put you on a testing users list and allow to use t
 <img src="/images/icons/readMe/GIMP/04.png" alt="Logo" width="100%" height="100%">
 
 ## Mobile view
-<img src="/images/icons/readMe/01_mobile.jpg" alt="Logo" width="33%" height="auto"> <img src="/images/icons/readMe/02_mobile.jpg" alt="Logo" width="33%" height="auto"> <img src="/images/icons/readMe/03_mobile.jpg" alt="Logo" width="33%" height="auto">      
+<img src="/images/icons/readMe/01_mobile.jpg" alt="Logo" width="30%" height="auto"> <img src="/images/icons/readMe/02_mobile.jpg" alt="Logo" width="30%" height="auto"> <img src="/images/icons/readMe/03_mobile.jpg" alt="Logo" width="30%" height="auto">      
 
 
 <!-- CONTACT -->
