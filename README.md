@@ -57,7 +57,9 @@ This gives me a posibility to put you on a testing users list and allow to use t
 <!-- CONTACT -->
 ## Contact
 
-Bartosz Bednarski - bartosz.bednarski97@gmail.com
+Bartosz Bednarski 
+* e-mail: bartosz.bednarski97@gmail.com
+* linkedIn: https://www.linkedin.com/in/bartosz-bednarski-050196234/
 
 Project Link: [https://github.com/bartosz-bednarski/YouTube-Project](https://github.com/bartosz-bednarski/YouTube-Project)
 
