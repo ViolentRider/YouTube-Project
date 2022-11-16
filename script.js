@@ -81,7 +81,6 @@ function checkTopside(e) {
     const videosBoxes = document.querySelectorAll(".video-box");
     videosBoxes.forEach((item) => item.remove());
     createVideoBox(e);
-    console.log(e.target.getAttribute("id"));
   }
 }
 topSideContainer.addEventListener("click", checkTopside);
@@ -96,7 +95,6 @@ async function findChannelVideos(e) {
   const res = await axios.get(URL);
   const videos = [res.data.items];
 
-  console.log(videos);
   return videos;
 }
 
